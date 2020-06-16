@@ -1,0 +1,5 @@
+$ npm install bootstrap font-awosome jquery popper.js
+    font-awosome  get us the icon and the other are dependences of bootstrap
+
+$ npm install -D gulp gulp-cli gulp-sass browser-sync  
+    for developing more easy and gulp is a tool for send our project to Production.
