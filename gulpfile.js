@@ -43,7 +43,7 @@ gulp.task('fonts', gulp.series(() => {
 gulp.task('serve',gulp.series( ['sass'], () => {
   browserSync.init({
     server: {
-      baseDir:'./src'
+      baseDir:'./'
     }
   });
 }));
@@ -53,7 +53,7 @@ gulp.watch([
   'src/scss/*.sass'
 ],gulp.parallel(['sass']));
 
-gulp.watch('src/*.html').on('change', browserSync.reload);
+gulp.watch('/*.html').on('change', browserSync.reload);
 
 
 gulp.task('default', gulp.series(['js', 'serve', 'awesome', 'fonts']));

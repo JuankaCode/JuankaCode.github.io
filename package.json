@@ -1,7 +1,6 @@
 {
   "name": "mypage",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "start": "gulp"
@@ -19,5 +18,15 @@
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuankaCode/juankacode.github.io.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JuankaCode/juankacode.github.io/issues"
+  },
+  "homepage": "https://github.com/JuankaCode/juankacode.github.io#readme",
+  "description": ""
 }
