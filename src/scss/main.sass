@@ -5,6 +5,23 @@
       width: 50px
     .bold
       font-weight: 700
+		.angla
+			position: relative
+		.angla::before
+			content: ''
+			position: absolute
+			width: 100%
+			transform: scaleX(0)
+			height: 2px
+			bottom: 0
+			left: 0
+			background-color: #fff
+			transform-origin: bottom right
+			transition: transform 0.25s ease-out
+		.angla:hover::before
+			transform: scaleX(2)
+			transform-origin: bottom right 
+
 
 .carousel-video
   margin-top: 80.38px
